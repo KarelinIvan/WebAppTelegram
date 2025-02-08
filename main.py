@@ -1,5 +1,7 @@
 from aiogram import Bot, Dispatcher, types, executor
 
+from aiogram.types import WebAppInfo
+
 from settings import TELEGRAM_TOKEN
 
 bot = Bot(TELEGRAM_TOKEN)
